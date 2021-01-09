@@ -1,0 +1,20 @@
+{
+  "name": "notepad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldombuthia/text-editor.git"
+  },
+  "keywords": [],
+  "author": "Gerald Mbuthia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldombuthia/text-editor/issues"
+  },
+  "homepage": "https://github.com/geraldombuthia/text-editor#readme"
+}
