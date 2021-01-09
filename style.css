@@ -25,9 +25,31 @@ nav{
 #notes{
     display: flex;
     padding: 5px;
-    max-width: 100vw;
+    width: 100vw;
     height: calc(100vh - 60px);
     border: none;
     outline: none;
     font-size: 16px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    width: 100vw;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+}
+.first, .second, .third{
+    width: calc(100% / 3);
+    padding: 0 10px;
+    min-height: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.second{
+    border-right: 1px solid green;
+    border-left: 1px solid green;
 }
